@@ -1,7 +1,13 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using ControleContatos.Data;
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString = builder.Configuration.GetConnectionString("databaseUrl");
+builder.Services.AddDbContext<BancoContext>(options => options.UseSqlite(connectionString));
 
 var app = builder.Build();
 

@@ -1,35 +1,37 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{B187DD51-1188-462B-8930-892A70C851E0}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ControleContatos/Program.cs">
-    <Files>
-      <File FileName="ControleContatos/Program.cs" Line="19" Column="18" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="ControleContatos">
-            <Node name="ControleContatos" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Contato" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ControleContatos PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ControleContatos PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ControleContatos/Models/ContatoModel.cs">
+    <Files>
+      <File FileName="ControleContatos/Program.cs" Line="21" Column="1" />
+      <File FileName="ControleContatos/appsettings.json" Line="13" Column="1" />
+      <File FileName="ControleContatos/Data/BancoContext.cs" Line="18" Column="1" />
+      <File FileName="ControleContatos/Controllers/ContatoController.cs" Line="1" Column="1" />
+      <File FileName="ControleContatos/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="ControleContatos/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="ControleContatos/Models/ContatoModel.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ControleContatos" expanded="True">
+            <Node name="ControleContatos">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ContatoModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>

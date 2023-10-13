@@ -1,6 +1,7 @@
 ﻿using System;
 using ControleContatos.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Sqlite;
 
 namespace ControleContatos.Data
 {
